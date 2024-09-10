@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #282828; /* Cor de fundo da página */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+/* Centraliza o símbolo da Alexa no topo */
+.simboloalexa {
+    width: 100%; /* Ocupa a largura total da página */
+    padding: 28px 0; /* Espaçamento interno do cabeçalho */
+    background-color: #282828; /* Cor de fundo do cabeçalho */
+    position: relative; /* Necessário para posicionar elementos absolutos */
+    text-align: center; /* Centraliza os links e imagens */
+}
+.cabecalho {
+    display: flex; /* Usar flexbox para layout do header */
+    justify-content: center; /* Centraliza o nav horizontalmente no header */
+    align-items: center; /* Alinha o nav verticalmente no header */
+    padding: 1px; /* Adiciona algum padding ao redor do header, ajuste conforme necessário */
+}
+
+.cabecalho nav {
+    display: flex; /* Usar flexbox para layout dos itens do nav */
+    justify-content: center; /* Centraliza horizontalmente os links no nav */
+    align-items: center; /* Alinha os links verticalmente no centro do nav */
+}
+
+.cabecalho_menu_link {
+    font-size: 38px; /* Tamanho da fonte dos links */
+    color: #FFFFFF; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 58px; /* Espaçamento entre os links */
+    font-weight: 30; /* Espessura da fonte dos links */
+}
+
+.cabecalho_menu_link:hover {
+    color: #71cbff; /* Cor dos links ao passar o mouse */
+}
+
+.linha{
+        position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+        width: 2024px; /* Largura da linha */
+        height: 7px; /* Altura da linha */
+        left: 0px; /* Distância do lado esquerdo do contêiner pai */
+        top: 200px; /* Distância do topo do contêiner pai */
+        background: #54BDFF; /* Cor da linha */
+}
+
+.dispositivos_alexa{
+    text-align: center;
+    color: #FFFFFF;
+    width: 282px;
+    margin-left: 870px;
+    margin-top: 50px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 44px;
+}
+.echo_dot img{
+    position: absolute; /* Posicionamento absoluto em relação ao contêiner */
+    width: 410px; /* Largura da imagem */
+    height: 411px; /* Altura da imagem */
+    left: 59px; /* Posição horizontal da imagem (a partir da esquerda) */
+    top: 330px; /* Posição vertical da imagem (a partir do topo) */
+    background: url(assets/alexa.png) no-repeat; /* Define a imagem de fundo sem repetição */
+    backdrop-filter: blur(2px); /* Aplica um leve desfoque à imagem */
+}
+
+
+.echodot{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    left: 228px;
+    top: 669px;
+    color: #FFFFFF;
+
+
+}
+    .echo_studio { 
+        position: absolute;
+        width: 147px;
+        height: 28px;
+        left: 640px;
+        top: 400px;
+
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .echo_show img{
+        position: absolute;
+        width: 411px; /* Largura da imagem */
+        height: 255px; /* Altura da imagem */
+        left: 1000px;
+        top: 420px;
+    }
+
+    .echoshow{
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+        position: absolute;
+        width: 323px;
+        height: 222px;
+        left: 1050px;
+        top: 680px;
+
+        color: #FFFFFF;
+    }
+    .fire_tablet { 
+        position: absolute;
+        width: 133px;
+        height: 28px;
+        left: 1564px;
+        top: 400px;
+
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+    
+    }
+    .texto_dispositivos {  
+        position: absolute;
+        width: 602px;
+        height: 119px;
+        left: 76px;
+        top: 900px;
+        
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 27px;
+        
+        color: #FFFFFF;
+    }
+    .echo_wall_clock {  
+        position: absolute;
+        width: 285px;
+        height: 28px;
+        left: 818px;
+        top: 812px;
+        
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+    }
+    .fire_stick {  
+        position: absolute;
+        width: 293px;
+        height: 274px;
+        left: 1484px;
+        top: 812px;
+
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+    }

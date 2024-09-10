@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); /* Importa a fonte League Spartan do Google Fonts */
+
+/* Estilo para o corpo da página */
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte principal */
+    background-color: #282828; /* Cor de fundo da página (cinza escuro) */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+
+/* Centraliza o símbolo da Alexa no topo */
+.simboloalexa {
+    width: 100%; /* O símbolo ocupa a largura total da página */
+    padding: 28px 0; /* Adiciona espaçamento interno (superior e inferior) */
+    background-color: #282828; /* Cor de fundo do cabeçalho */
+    position: relative; /* Necessário para posicionamento absoluto dentro do contêiner */
+    text-align: center; /* Centraliza o conteúdo (como a imagem do símbolo) horizontalmente */
+}
+
+/* Estilo do cabeçalho e links */
+.cabecalho {
+    display: flex; /* Usar flexbox para layout do cabeçalho */
+    justify-content: center; /* Centraliza horizontalmente os itens do cabeçalho */
+    align-items: center; /* Centraliza verticalmente os itens do cabeçalho */
+    padding: 1px; /* Adiciona pequeno preenchimento ao redor do cabeçalho */
+}
+
+.cabecalho nav {
+    display: flex; /* Usa flexbox no contêiner do menu de navegação */
+    justify-content: center; /* Centraliza horizontalmente os links do menu */
+    align-items: center; /* Alinha verticalmente os links */
+}
+
+.cabecalho_menu_link {
+    font-size: 38px; /* Define o tamanho da fonte dos links */
+    color: #FFFFFF; /* Cor dos links (branco) */
+    text-decoration: none; /* Remove sublinhado dos links */
+    margin: 0 58px; /* Define espaço entre os links */
+    font-weight: 30; /* Define a espessura da fonte dos links */
+}
+
+.cabecalho_menu_link:hover {
+    color: #71cbff; /* Cor dos links ao passar o mouse (azul claro) */
+}
+
+/* Estilo da linha abaixo do cabeçalho */
+.linha{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 2024px; /* Largura da linha */
+    height: 7px; /* Altura da linha */
+    left: 0px; /* Distância do lado esquerdo do contêiner pai */
+    top: 200px; /* Distância do topo do contêiner pai */
+    background: #54BDFF; /* Cor da linha */
+}
+
+/* Estilo da imagem da Alexa */
+.image1 {
+    position: absolute; /* Posicionamento absoluto em relação ao contêiner */
+    width: 510px; /* Largura da imagem */
+    height: 511px; /* Altura da imagem */
+    left: 59px; /* Posição horizontal da imagem (a partir da esquerda) */
+    top: 235px; /* Posição vertical da imagem (a partir do topo) */
+    background: url(assets/alexa.png) no-repeat; /* Define a imagem de fundo sem repetição */
+    backdrop-filter: blur(2px); /* Aplica um leve desfoque à imagem */
+}
+
+/* Estilo do texto explicativo abaixo da imagem da Alexa */
+.explicacaoalexa h1 {
+    position: absolute; /* Posicionamento absoluto em relação ao contêiner */
+    width: 457px; /* Largura do bloco de texto */
+    height: 78px; /* Altura do bloco de texto */
+    left: 74px; /* Posição horizontal do texto */
+    top: 676px; /* Posição vertical do texto */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 200; /* Define a espessura da fonte */
+    font-size: 28px; /* Tamanho da fonte */
+    line-height: 26px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+
+/* Estilo do texto de ativação por voz */
+.titulo_ativacaoporvoz p {
+    position: absolute; /* Posicionamento absoluto */
+    width: 348px; /* Largura do texto */
+    height: 214px; /* Altura do texto */
+    left: 617px; /* Posição horizontal */
+    top: 480px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_ativacaoporvoz h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 339px; /* Largura do texto */
+    height: 56px; /* Altura do texto */
+    left: 637px; /* Posição horizontal */
+    top: 425px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 42px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    
+    color: #FFFFFF; /* Cor do texto (branco) */
+
+}
+
+/* Estilo do texto de habilidades */
+.titulo_habilidades p{
+    position: absolute; /* Posicionamento absoluto */
+    width: 454px; /* Largura do texto */
+    height: 182px; /* Altura do texto */
+    left: 569px; /* Posição horizontal */
+    top: 765px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+
+.titulo_habilidades h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 428px; /* Largura do texto */
+    height: 58px; /* Altura do texto */
+    left: 688px; /* Posição horizontal */
+    top: 710px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 42px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_funcionamento p{
+    position: absolute; /* Posicionamento absoluto */
+    width: 660px; /* Largura do texto */
+    height: 80px; /* Altura do texto */
+    left: 919px; /* Posição horizontal */
+    top: 283px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 30px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #00B2EE; /* Cor do texto (branco) */
+
+}
+.titulo_funcionamento h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 519px; /* Largura do texto */
+    height: 91px; /* Altura do texto */
+    left: 1011px; /* Posição horizontal */
+    top: 230px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 44px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_conectividade p{
+    position: absolute; /* Posicionamento absoluto */
+    width: 406px; /* Largura do texto */
+    height: 200px; /* Altura do texto */
+    left: 1026px; /* Posição horizontal */
+    top: 550px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_conectividade h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 330px; /* Largura do texto */
+    height: 53px; /* Altura do texto */
+    left: 1084px; /* Posição horizontal */
+    top: 503px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 42px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_seguranca p{
+    position: absolute; /* Posicionamento absoluto */
+    width: 388px; /* Largura do texto */
+    height: 239px; /* Altura do texto */
+    left: 1457px; /* Posição horizontal */
+    top: 480px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 32px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_seguranca h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 389px; /* Largura do texto */
+    height: 53px; /* Altura do texto */
+    left: 1461px; /* Posição horizontal */
+    top: 425px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 36px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_casainteligente p{
+    position: absolute; /* Posicionamento absoluto */
+    width: 389px; /* Largura do texto */
+    height: 53px; /* Altura do texto */
+    left: 1461px; /* Posição horizontal */
+    top: 747px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 300; /* Define a espessura da fonte */
+    font-size: 31px; /* Tamanho da fonte */
+    line-height: 29px; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+.titulo_casainteligente h1{
+    position: absolute; /* Posicionamento absoluto */
+    width: 424px; /* Largura do texto */
+    height: 53px; /* Altura do texto */
+    left: 1513px; /* Posição horizontal */
+    top: 703px; /* Posição vertical */
+    font-family: 'League Spartan', sans-serif; /* Define a fonte */
+    font-weight: 500; /* Define espessura da fonte (mais espesso) */
+    font-size: 42px; /* Tamanho da fonte */
+    line-height: 39px; /* Altura da linha */
+    color: #FFFFFF; /* Cor do texto (branco) */
+}
+
+/* Estilo das linhas de destaque */
+.linha_ativacao, .linha_habilidades, .linha_conectividade, .linha_seguranca, .linha_casainteligente {
+    position: absolute; /* Posicionamento absoluto */
+    border: 4px solid #00B3EE; /* Cor das bordas (azul claro) */
+}
+
+.linha_ativacao {
+    width: 313px; /* Comprimento da linha vertical */
+    height: 0px; /* Define como uma linha horizontal */
+    left: 626px; /* Posição horizontal */
+    top: 491px; /* Posição vertical */
+}
+
+.linha_habilidades {
+    width: 293px; /* Comprimento da linha vertical */
+    height: 0px; /* Define como uma linha horizontal */
+    left: 640px; /* Posição horizontal */
+    top: 775px; /* Posição vertical */
+}
+
+.linha_conectividade {
+    width: 331px; /* Comprimento da linha horizontal */
+    height: 0px; /* Define como uma linha horizontal */
+    left: 1046px; /* Posição horizontal */
+    top: 564px; /* Posição vertical */
+}
+
+.linha_seguranca {
+    width: 401px; /* Comprimento da linha horizontal */
+    height: 0px; /* Define como uma linha horizontal */
+    left: 1449px; /* Posição horizontal */
+    top: 491px; /* Posição vertical */
+}
+.linha_casainteligente {
+    width: 341px; /* Comprimento da linha horizontal */
+    height: 0px; /* Define como uma linha horizontal */
+    left: 1487px; /* Posição horizontal */
+    top: 767px; /* Posição vertical */
+}
+.titulo_ativacaoporvoz p, .titulo_habilidades p, .titulo_seguranca p, .titulo_conectividade p, .titulo_casainteligente p {
+   display: none;
+   
+}
+
+.titulo_ativacaoporvoz:hover p, .titulo_habilidades:hover p, .titulo_seguranca:hover p, .titulo_conectividade:hover p, .titulo_casainteligente:hover p {
+    display: block;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}

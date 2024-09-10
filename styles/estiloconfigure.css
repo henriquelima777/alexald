@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #282828; /* Cor de fundo da página */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+/* Centraliza o símbolo da Alexa no topo */
+.simboloalexa {
+    width: 100%; /* Ocupa a largura total da página */
+    padding: 28px 0; /* Espaçamento interno do cabeçalho */
+    background-color: #282828; /* Cor de fundo do cabeçalho */
+    position: relative; /* Necessário para posicionar elementos absolutos */
+    text-align: center; /* Centraliza os links e imagens */
+}
+.cabecalho {
+    display: flex; /* Usar flexbox para layout do header */
+    justify-content: center; /* Centraliza o nav horizontalmente no header */
+    align-items: center; /* Alinha o nav verticalmente no header */
+    padding: 1px; /* Adiciona algum padding ao redor do header, ajuste conforme necessário */
+}
+
+.cabecalho nav {
+    display: flex; /* Usar flexbox para layout dos itens do nav */
+    justify-content: center; /* Centraliza horizontalmente os links no nav */
+    align-items: center; /* Alinha os links verticalmente no centro do nav */
+}
+
+.cabecalho_menu_link {
+    font-size: 38px; /* Tamanho da fonte dos links */
+    color: #FFFFFF; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 58px; /* Espaçamento entre os links */
+    font-weight: 30; /* Espessura da fonte dos links */
+}
+
+.cabecalho_menu_link:hover {
+    color: #71cbff; /* Cor dos links ao passar o mouse */
+}
+
+.linha{
+        position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+        width: 2024px; /* Largura da linha */
+        height: 7px; /* Altura da linha */
+        left: 0px; /* Distância do lado esquerdo do contêiner pai */
+        top: 200px; /* Distância do topo do contêiner pai */
+        background: #54BDFF; /* Cor da linha */
+}
+
+.passo1{
+    position:absolute;
+    left: 214px;
+    top: 355px;
+}
+
+.passo2{
+    position:absolute;
+    top: 355px;
+    left: 612px;
+}
+
+.passo3{
+    position:absolute;
+    top: 355px;
+    left: 1010px;
+}
+
+.passo4{
+    position:absolute;
+    top: 355px;
+    left: 1408px;
+}
+.passo5{
+    position:absolute;
+    top: 665px;
+    left: 215px;
+}
+.passo6{
+    position:absolute;
+    top: 665px;
+    left: 613px;
+}
+.passo7{
+    font-weight: 100;
+    position:absolute;
+    top: 665px;
+    left: 1011px;
+}
+
+.passo1 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo1 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo2 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo2 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo3 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo3 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo4 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo4 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo5 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo5 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo6 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo6 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.passo7 p{
+    font-style: normal;
+    width: 310px; /* Define a largura como uma porcentagem da largura do contêiner pai */
+    line-height: 39px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 310;
+}
+
+.passo7 h1{
+    justify-content: left;
+    width: 310px; /* Define a largura do texto */
+    font-size: 42px;
+    font-weight: 330;
+    line-height: 39px;
+}
+
+.linha1{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 213px; /* Distância do lado esquerdo do contêiner pai */
+    top: 430px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha2{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 1009px; /* Distância do lado esquerdo do contêiner pai */
+    top: 430px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha3{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 611px; /* Distância do lado esquerdo do contêiner pai */
+    top: 430px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha4{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 1407px; /* Distância do lado esquerdo do contêiner pai */
+    top: 430px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha5{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 214px; /* Distância do lado esquerdo do contêiner pai */
+    top: 740px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha6{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 612px; /* Distância do lado esquerdo do contêiner pai */
+    top: 740px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.linha7{
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 331px; /* Largura da linha */
+    height: 3px; /* Altura da linha */
+    left: 1010px; /* Distância do lado esquerdo do contêiner pai */
+    top: 740px; /* Distância do topo do contêiner pai */
+    background: #00B2EE; /* Cor da linha */
+}
+
+.passo1 p, .passo2 p, .passo3 p, .passo4 p, .passo5 p, .passo6 p, .passo7 p {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.passo1:hover p, .passo2:hover p, .passo3:hover p, .passo4:hover p, .passo5:hover p, .passo6:hover p, .passo7:hover p {
+    opacity: 1;
+    visibility: visible;
+}

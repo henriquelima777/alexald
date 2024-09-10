@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #282828; /* Cor de fundo da página */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+/* Centraliza o símbolo da Alexa no topo */
+.simboloalexa {
+    width: 100%; /* Ocupa a largura total da página */
+    padding: 28px 0; /* Espaçamento interno do cabeçalho */
+    background-color: #282828; /* Cor de fundo do cabeçalho */
+    position: relative; /* Necessário para posicionar elementos absolutos */
+    text-align: center; /* Centraliza os links e imagens */
+}
+.cabecalho {
+    display: flex; /* Usar flexbox para layout do header */
+    justify-content: center; /* Centraliza o nav horizontalmente no header */
+    align-items: center; /* Alinha o nav verticalmente no header */
+    padding: 1px; /* Adiciona algum padding ao redor do header, ajuste conforme necessário */
+}
+
+.cabecalho nav {
+    display: flex; /* Usar flexbox para layout dos itens do nav */
+    justify-content: center; /* Centraliza horizontalmente os links no nav */
+    align-items: center; /* Alinha os links verticalmente no centro do nav */
+}
+
+.cabecalho_menu_link {
+    font-size: 38px; /* Tamanho da fonte dos links */
+    color: #FFFFFF; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 58px; /* Espaçamento entre os links */
+    font-weight: 30; /* Espessura da fonte dos links */
+}
+
+.cabecalho_menu_link:hover {
+    color: #71cbff; /* Cor dos links ao passar o mouse */
+}
+
+.linha{
+        position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+        width: 2024px; /* Largura da linha */
+        height: 7px; /* Altura da linha */
+        left: 0px; /* Distância do lado esquerdo do contêiner pai */
+        top: 200px; /* Distância do topo do contêiner pai */
+        background: #54BDFF; /* Cor da linha */
+}   
+
+    
+    .fotomaocelular { 
+        margin-top: 140px;
+        margin-left: 260px;
+    }
+    .qrcode { 
+        margin-top: -600px;
+        margin-left: 840px;
+    }
+    .texto-qrcode { 
+    text-align: center;
+    color: #54BDFF;
+    font-size: 62px;
+    font-weight: 783px;
+    width: 783px;
+    margin-left: 650px;
+    }
+    .acesse-o-app{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 48px;
+        font-weight: 282px;
+        width: 282px;
+        margin-left: 870px;
+        margin-top: 50px;
+    }

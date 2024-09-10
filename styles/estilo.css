@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #282828; /* Cor de fundo da página */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+/* Centraliza o símbolo da Alexa no topo */
+.simboloalexa {
+    width: 100%; /* Ocupa a largura total da página */
+    padding: 28px 0; /* Espaçamento interno do cabeçalho */
+    background-color: #282828; /* Cor de fundo do cabeçalho */
+    position: relative; /* Necessário para posicionar elementos absolutos */
+    text-align: center; /* Centraliza os links e imagens */
+}
+.cabecalho {
+    display: flex; /* Usar flexbox para layout do header */
+    justify-content: center; /* Centraliza o nav horizontalmente no header */
+    align-items: center; /* Alinha o nav verticalmente no header */
+    padding: 1px; /* Adiciona algum padding ao redor do header, ajuste conforme necessário */
+}
+
+.cabecalho nav {
+    display: flex; /* Usar flexbox para layout dos itens do nav */
+    justify-content: center; /* Centraliza horizontalmente os links no nav */
+    align-items: center; /* Alinha os links verticalmente no centro do nav */
+}
+
+.cabecalho_menu_link {
+    font-size: 38px; /* Tamanho da fonte dos links */
+    color: #FFFFFF; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 58px; /* Espaçamento entre os links */
+    font-weight: 30; /* Espessura da fonte dos links */
+}
+
+.cabecalho_menu_link:hover {
+    color: #71cbff; /* Cor dos links ao passar o mouse */
+}
+
+.linha{
+        position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+        width: 2024px; /* Largura da linha */
+        height: 7px; /* Altura da linha */
+        left: 0px; /* Distância do lado esquerdo do contêiner pai */
+        top: 200px; /* Distância do topo do contêiner pai */
+        background: #54BDFF; /* Cor da linha */
+}
+
+/* Estilo para o conteúdo principal da página */
+main {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    padding-top: 20px; /* Espaçamento entre o cabeçalho e o conteúdo */
+    position: relative;
+}
+
+/* Imagem principal da Alexa */
+.alexafoto {
+    width: 427px; /* Largura da imagem */
+    height: 431px; /* Altura da imagem */
+    position: absolute;
+    top: 35px; /* Posicionamento a partir do topo */
+    left: 124px; /* Posicionamento a partir da esquerda */
+}
+
+/* Texto sobre o Echo Dot */
+.echodot {
+    position: absolute;
+    top: 450px;
+    left: 143px;
+    width: 346px; /* Largura da caixa de texto */
+    text-align: center;
+    font-size: 28px; /* Tamanho da fonte */
+    line-height: 26px; /* Altura da linha */
+    font-weight: 30; /* Espessura da fonte dos links */
+
+}
+
+/* Imagem da tela da Alexa */
+.alexatela {
+    position: absolute;
+    top: 110px;
+    left: 716px;
+    width: 411px; /* Largura da imagem */
+    height: 255px; /* Altura da imagem */
+}
+
+/* Texto sobre o Echo Show */
+.echoshow {
+    position: absolute;
+    top: 450px;
+    left: 690px;
+    width: 516px; /* Largura da caixa de texto */
+    text-align: center;
+    font-size: 28px; /* Tamanho da fonte */
+    line-height: 26px; /* Altura da linha */
+    font-weight: 30; /* Espessura da fonte dos links */
+
+}
+
+/* Explicação sobre a Alexa */
+.explicacaoalexa {
+    position: absolute;
+    top: 160px;
+    left: 1345px;
+    width: 453px;
+    font-size: 36px; /* Tamanho da fonte */
+    line-height: 33px; /* Altura da linha */
+    font-weight: 30;}
+
+/* Estilo para os títulos de seções */
+.recursos-alexa, .informacoes, .smarthouse, .entretenimento, .compras, .rotina, .musica {
+    font-size: 28px; /* Tamanho da fonte */
+    line-height: 26px; /* Altura da linha */
+    color: #FFFFFF;
+    position: absolute;
+}
+
+/* Ajustes para as posições dos títulos */
+.recursos-alexa {
+    top: 600px;
+    left: 850px;
+    font-size: 40px;
+
+}
+
+.informacoes {
+    top: 840px;
+    left: 300px;
+}
+
+.smarthouse {
+    top: 840px;
+    left: 539px;
+}
+
+.entretenimento {
+    top: 840px;
+    left: 824px;
+}
+
+.compras {
+    top: 840px;
+    left: 1087px;
+}
+
+.rotina {
+    top: 840px;
+    left: 1338px;
+}
+
+.musica {
+    top: 840px;
+    left: 1539px;
+}
+
+/* Estilo para os ícones */
+.informacoes-img, .smarthouse-img, .entretenimento-img, .compras-img, .rotina-img, .musica-img {
+    position:absolute ;
+
+}
+
+/* Ajustes para as posições dos ícones */
+.informacoes-img {
+    top: -170px;
+    left: 20px;
+    width: 110px;
+    height: 112px;
+}
+
+.smarthouse-img {
+    top: -195px;
+    left: -5px;
+    width: 184.5px;
+    height: 144px;
+}
+
+.entretenimento-img {
+    top: -170px;
+    left: 23px;
+    width: 143px; /* Largura aumentada em 1.3 vezes */
+    height: 127px; /* Altura aumentada em 1.3 vezes */
+}
+
+.compras-img {
+    top: -195px;
+    left: -10px;
+    width: 138.6px; /* Largura aumentada em 1.4 vezes */
+    height: 145.6px; /* Altura aumentada em 1.4 vezes */
+}
+
+.rotina-img {
+    top: -150px;
+    left: -15px;
+    width: 110px;
+    height: 87px;
+}
+
+.musica-img {
+    top: -160px;
+    left: -10px;
+    width: 117px; /* Largura aumentada em 1.3 vezes */
+    height: 112px; /* Altura aumentada em 1.3 vezes (arredondado) */
+}
+
+
+
+.linha2 {
+    position: absolute; /* Permite o posicionamento absoluto em relação ao contêiner pai */
+    width: 468px; /* Largura da linha */
+    height: 5px; /* Altura da linha */
+    left: 760px; /* Distância do lado esquerdo do contêiner pai */
+    top: 640px; /* Distância do topo do contêiner pai */
+    background: #54BDFF; /* Cor da linha */
+}
